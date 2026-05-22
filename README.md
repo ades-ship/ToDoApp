@@ -51,6 +51,24 @@ npm run dev
 
 Then open [http://localhost:5173](http://localhost:5173).
 
+## Requirements
+
+- **Node.js**: This project requires Node.js >= 20.19.0 because Vite requires Node 20.19+ or 22.12+.
+
+To upgrade locally using `nvm`:
+
+```bash
+nvm install 20.19
+nvm use 20.19
+```
+
+After switching Node versions, re-run:
+
+```bash
+npm install
+npm run dev
+```
+
 ## Build
 
 ```bash
